@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30c2593b0e4d720418a73d736222d196, type: 3}
+  m_Name: Levels
+  m_EditorClassIdentifier: 
+  currentLevel: 0
+  levels:
+  - {fileID: 8207987357860649803, guid: 6bcfd44d0b635c14eaca80a00c91b14b, type: 3}
+  - {fileID: 3095852597661527356, guid: a08cece1e0ea03045897c0123714a8ad, type: 3}
+  - {fileID: 3720764158465652738, guid: e49d5042548f06c42963c6bd4e3171d7, type: 3}
+  levelsInfo:
+  - Just showing basic game mechanics. The player probably player will go down and
+    lose at the first time.
+  - Little bit bigger level. Introducing player with skip move function.
+  - The level Main goal is to find where to skip the move.
+  levelsTip:
+  - 1. Left; 2.Left;  3. Down; 4. Right;
+  - 1. Right; 2. Up; 3. Up; 4 Right; 5. S; 6. Right; 7. Down; 8 Right;
+  - 1. Left; 2. S; 3. Left; 4. Down; 5. Down; 6. Left; 7. Left; 8. Left;
